@@ -1,0 +1,67 @@
+.paragraph {
+    font-family: Helvetica;
+    color: #8B0000;
+    background-color: #FFA500;
+    padding: 5px;
+    border-style: groove;
+    border-color: #FFD700;
+}
+
+body {
+    background: antiquewhite
+}
+
+body h1 {
+    font-family: "Avantgarde";
+    border-style: groove;
+    border-color: #FFA500;
+    color: #FFD700;
+    background-color: brown;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#directory {
+    border-style: groove;
+    border-color: #FFA500;
+    background-color: #FFD700;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+button:hover {
+    color: #FFD700;
+}
+
+button {
+    color: #8B0000;
+    background-color: #CD5C5C;
+    width: 100px;
+}
+
+.home-image img {
+    margin-top: 5px;
+    height: 30pc;
+    width: 30pc;
+    display: flex;
+    justify-content: center;
+}
+
+.home-image {
+    display: flex;
+    justify-content: center;
+}
+
+.origins-images {
+    display: flex;
+    justify-content: space-evenly;
+    width:auto;
+    height:auto;
+}
+
+.origins-images img {
+    width: 25vw;
+    height: 25vw;
+}
