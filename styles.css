@@ -31,14 +31,16 @@ body h1 {
 
 }
 
-button:hover {
+button:hover, .link:hover {
     color: #FFD700;
 }
 
-button {
+button, .link {
     color: #8B0000;
     background-color: #CD5C5C;
     width: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 .home-image img {
